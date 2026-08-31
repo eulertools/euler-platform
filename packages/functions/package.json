@@ -1,0 +1,32 @@
+{
+  "name": "functions",
+  "version": "0.0.0",
+  "private": true,
+  "description": "> TODO: description",
+  "author": "tebayoso <jorge@euler.tools>",
+  "homepage": "https://github.com/eulertools/euler-platform#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eulertools/euler-platform.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/functions.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/eulertools/euler-platform/issues"
+  },
+  "dependencies": {
+    "@types/uuid": "^8.0.0",
+    "reactshoppe-database": "^0.0.0",
+    "uuid": "^8.1.0"
+  }
+}
